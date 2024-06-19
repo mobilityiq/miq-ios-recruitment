@@ -4,7 +4,7 @@
 Using Swift and UIKit, build a simple app that fetches nearby restaurants and displays them as annotations on a MapKit map. Upon tapping an annotation, the user should be navigated to a detail view with some more information about the location.
 
 ## Setup
-- Create a new iOS app using Swift and UIKit, the UI should be built programmatically, no Storyboards.
+- Create a new iOS app using Swift and UIKit, the UI should be built programmatically, no Storyboards. Please delete `Main.storyboard`.
 - The main screen should be a single view with a full-screen [MapKit](https://developer.apple.com/documentation/mapkit/) map view.
 - Request access to the user’s current location using [CoreLocation](https://developer.apple.com/documentation/corelocation).
 
