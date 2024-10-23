@@ -9,7 +9,7 @@ Using Swift and UIKit, build a simple app that fetches nearby restaurants and di
 - Request access to the user’s current location using [CoreLocation](https://developer.apple.com/documentation/corelocation).
 
 ## Networking
-- Use Google’s [Nearby Search](https://developers.google.com/maps/documentation/places/web-service/nearby-search) API to fetch restaurants near the user’s current location.
+- Use Google’s [Nearby Search](https://developers.google.com/maps/documentation/places/web-service/search-nearby) API to fetch restaurants near the user’s current location.
 
 ## User Interface
 - Display the results from the Google API as MapKit annotations on the map view.
