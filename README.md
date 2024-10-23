@@ -11,7 +11,7 @@ The project should be completed using first-party APIs only - please do not use 
 - Request access to the user’s current location using [CoreLocation](https://developer.apple.com/documentation/corelocation).
 
 ## Networking
-- Use Google’s [Nearby Search](https://developers.google.com/maps/documentation/places/web-service/search-nearby) API to fetch restaurants near the user’s current location.
+- Use [`URLSession`](https://developer.apple.com/documentation/foundation/urlsession) and Google’s [Nearby Search](https://developers.google.com/maps/documentation/places/web-service/search-nearby) API to fetch restaurants near the user’s current location.
 
 ## User Interface
 - Display the results from the Google API as MapKit annotations on the map view.
